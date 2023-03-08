@@ -1,90 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
 * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+
   }
 
   body {
     background-image: url(../images/background.png);
 }
 
-.font-size-2 {
-    font-size: 4.3rem;
-}
-
-@media screen and (min-width:900px) and (max-width:1199px) {
-
-    .font-size-2 {
-        font-size: 2rem;
-    }
+@media only screen and (min-width: 768px) {
     body {
         background-image: url(../images/background.png);
         background-position: center;
     }
 
-    h5 {
-        font-size: 1rem;
-    }
-
-    .sociallinks-icon {
-        font-size: 1rem;
-    }
-
-    a > p {
-        font-size: 1.2rem;
-    }
-    
 }
-@media screen and (min-width:770px) and (max-width:900px) {
 
-    .font-size-2 {
-        font-size: 2rem;
-    }
-
+    @media only screen and (min-width: 600px) {
     body {
         background-image: url(../images/background.png);
         background-position: center;
     }
-
-    h5 {
-        font-size: 1rem;
-    }
-
-    .sociallinks-icon {
-        font-size: 1rem;
-    }
-
-    a > p {
-        font-size: 1rem;
-    }
 }
 
-@media screen and (min-width:300px) and (max-width:769px){
-    .font-size-2 {
-        font-size: 2rem;
-    }
+@media screen and (max-width: 600px){
     body {
         background-image: url(../images/background.png);
         background-position: center;
     }
-
-    h5 {
-        font-size: 1rem;
-    }
-
-    .sociallinks-icon {
-        font-size: 1rem;
-    }
-
-    a > p {
-        font-size: .5rem;
-    }
 }
-  
-  .sociallinks-icon {
-    font-size: 1.2rem;
-  }
 
-  li>a::after {
+li>a::after {
     content: "";
     display: block;
     margin: auto;
@@ -103,16 +49,64 @@ li>a:hover::after, li>a.active-nav::after {
 
 .background {
 
-    position:
-        absolute;
-
-    display:
-        block;
-
+    position: absolute;
+    display: block;
     top: 0;
-
     left: 0;
-
     z-index: -1;
 
 }
+
+ul.timeline-3 {
+    list-style-type: none;
+    position: relative;
+  }
+  ul.timeline-3:before {
+    content: " ";
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+  }
+  ul.timeline-3 > li {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  ul.timeline-3 > li:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+  }
+
+  .black-lives-matter {
+    font-size: 8vw;
+    line-height: 8vw;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background: url(https://raw.githubusercontent.com/s1mpson/-/master/codepen/black-lives-matter/victim-collage.png);
+    background-size: 40%;
+    background-position: 50% 50%;
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0.08);
+    animation: zoomout 10s ease 500ms forwards;
+  }
+  
+  @keyframes zoomout {
+    from {
+      background-size: 40%;
+    }
+    to {
+      background-size: 10%;
+    }
+  }

@@ -1,6 +1,7 @@
 /* Dark Mode */
 .dark-mode {
-    background: black;
+    background: #020a13;
+    background-image: url();
     color: white;
   }
   
@@ -20,6 +21,10 @@
   .dark-mode .navbar-toggler{
     background-color: #fff;
     color: blue;
+  }
+
+  .dark-mode > footer  {
+    background-color: rgb(255, 255, 255);
   }
 
 
