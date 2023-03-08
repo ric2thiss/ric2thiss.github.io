@@ -6,9 +6,82 @@
   body {
     background-image: url(../images/background.png);
 }
+
+.font-size-2 {
+    font-size: 4.3rem;
+}
+
+@media screen and (min-width:900px) and (max-width:1199px) {
+
+    .font-size-2 {
+        font-size: 2rem;
+    }
+    body {
+        background-image: url(../images/background.png);
+        background-position: center;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    .sociallinks-icon {
+        font-size: 1rem;
+    }
+
+    a > p {
+        font-size: 1.2rem;
+    }
+    
+}
+@media screen and (min-width:770px) and (max-width:900px) {
+
+    .font-size-2 {
+        font-size: 2rem;
+    }
+
+    body {
+        background-image: url(../images/background.png);
+        background-position: center;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    .sociallinks-icon {
+        font-size: 1rem;
+    }
+
+    a > p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:769px){
+    .font-size-2 {
+        font-size: 2rem;
+    }
+    body {
+        background-image: url(../images/background.png);
+        background-position: center;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    .sociallinks-icon {
+        font-size: 1rem;
+    }
+
+    a > p {
+        font-size: .5rem;
+    }
+}
   
   .sociallinks-icon {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   li>a::after {
