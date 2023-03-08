@@ -1,0 +1,45 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+  }
+
+  body {
+    background-image: url(../images/background.png);
+}
+  
+  .sociallinks-icon {
+    font-size: 1rem;
+  }
+
+  li>a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 5px;
+    background: transparent;
+    transition: all 0.3s;
+
+}
+
+li>a:hover::after, li>a.active-nav::after {
+    width: 100%;
+    background: blue;
+}
+
+.background {
+
+    position:
+        absolute;
+
+    display:
+        block;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: -1;
+
+}

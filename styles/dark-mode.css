@@ -18,5 +18,9 @@
   }
 
   .dark-mode .navbar-toggler{
-    color: #fff;
+    background-color: #fff;
+    color: blue;
   }
+
+
+  /* ------------- */
