@@ -1,0 +1,22 @@
+/* Dark Mode */
+.dark-mode {
+    background: black;
+    color: white;
+  }
+  
+  .dark-mode .icon-dark{
+    color: #fff;
+    
+  }
+
+  .dark-mode  .nav-link {
+    color: #fff;
+  }
+
+  .dark-mode .navbar-brand {
+    color: #fff;
+  }
+
+  .dark-mode .navbar-toggler{
+    color: #fff;
+  }
