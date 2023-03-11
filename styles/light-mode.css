@@ -4,8 +4,12 @@
 
   }
 
-  body {
+body {
     background-image: url(../images/background.png);
+}
+
+.my-name {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 @media screen and (min-width:320px) and (max-width:978px) {
@@ -34,6 +38,10 @@
     right: 0;
     width: 330px;
   }
+
+  /* .project-images {
+    margin-left: 32px;
+  } */
   
 }
 
