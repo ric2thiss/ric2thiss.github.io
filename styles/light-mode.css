@@ -23,6 +23,17 @@
     margin-bottom: 10px;
     margin-left: -70px;
   }
+
+  .social-links {
+    margin-left: -10px;
+    left: 0;
+  }
+
+  .intro {
+    margin-left: -30px;
+    right: 0;
+    width: 330px;
+  }
   
 }
 
