@@ -1,0 +1,1 @@
+document.querySelector('.navbar-toggler').style.border = 'none';
