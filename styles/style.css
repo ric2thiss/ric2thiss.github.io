@@ -84,6 +84,12 @@
     }
 }
 
+@media only screen and (max-width: 537px) {
+    .embeded{
+        width: 300px;
+    }
+}
+
 .details{
     text-align: justify;
 }

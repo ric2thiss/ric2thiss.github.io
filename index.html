@@ -67,6 +67,7 @@
                             class="fa-brands fa-react"></i> <i class="fa-brands fa-php"></i></p>
                     <p>
                         <a class="btn btn-outline-info" href="mailto:ric2thiss@gmail.com" role="button">Hire &raquo;</a>
+                        <a class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal"  role="button">Download Resume &raquo;</a>
                     </p>
                 </div>
             </div>
@@ -125,6 +126,7 @@
                             </div>
                           </div>
                     </div>
+                    
                     <div class="col">
                         <div class="card" >
                             <img src="img/web2.png" class="card-img-top" alt="...">
@@ -214,6 +216,24 @@
                     </div>
             </div>
         </div>
+        </div>
+        <!-- Modals -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">My Resume</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <embed src="ric-resume.pdf" width="470" height="500" class="embeded" type="application/pdf">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a href="yourfile.pdf" class="btn btn-primary" download>Download</a>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- Contact Section -->
         <div class="b-example-divider"></div>
