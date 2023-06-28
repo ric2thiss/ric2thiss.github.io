@@ -46,6 +46,12 @@
 
 .front-end{
     color: var(--cool-text);
+    transition: .5s;
+}
+
+.front-end:hover{
+    color: var(--secondary-text);
+    cursor: pointer;
 }
 
 .social {
