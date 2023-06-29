@@ -12,3 +12,10 @@ const myInput = document.getElementById('myInput')
 myModal.addEventListener('shown.bs.modal', () => {
   myInput.focus()
 })
+
+const myModal2 = document.getElementById('myModal2')
+const myInput2 = document.getElementById('myInput2')
+
+myModal.addEventListener('shown.bs.modal2', () => {
+  myInput2.focus()
+})
